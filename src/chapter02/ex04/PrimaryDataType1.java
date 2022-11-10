@@ -105,29 +105,34 @@ public class PrimaryDataType1 {
 		
 		
 		/*
-		 * <문제>
+		  <문제> 구글을 검색해서 자신의 이름의 유니코드를 찾아서 변수에 할당하고 이름 출력
+		 	https://raisonde.tistory.com/553  <<한글 유니코드 자동 변환기>>
 		 */
 	
 		
-		char value21 = '\ucd5c'; //성
-		char value22 = '\uc9c0'; //이름1 '\uc9c0';
-		char value23 = '\uc724'; //이름2
+		char aa = '\ucd5c'; //성
+		char bb = '\uc9c0'; //이름1 '\uc9c0';
+		char cc = '\uc724'; //이름2
 		
 		
-		System.out.print(value21);
-		System.out.print(value22);
-		System.out.print(value23);
+		System.out.print(aa);
+		System.out.print(bb);
+		System.out.print(cc);
 		
 		
 		//최지윤
 		
-		
-		
-		
-			
-		
+	
 		// 5. 문자열 (String) : 여러 글자를 담을 수 있다.
-		//        변수의 값을 할당하는 리터럴에 "  "
+			//기본 자료형이 아니다. 참조 자료형 (객체)
+        //   변수의 값을 할당하는 리터럴에 "  "
+		
+		String value21 = "안녕하세요. 오늘의 날씨는 매우 맑습니다";
+		
+		System.out.println(value21);
+		
+		
+				
 		
 	}
 
