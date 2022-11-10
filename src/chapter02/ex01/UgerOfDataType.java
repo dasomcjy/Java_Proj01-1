@@ -25,9 +25,6 @@ public class UgerOfDataType {
 		b = 7;
 		System.out.println(b);
 
-		
-		
-		
 	}
 	
 }

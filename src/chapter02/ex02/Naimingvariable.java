@@ -24,7 +24,7 @@ public class Naimingvariable {
 		//char 3abcd ;     //
 		char a3bcd;        //
 		long abcd3;        
-		// double private ;       //자바에서 사용되는 예약언느 사용할 수 없다.
+		// double private ;       //자바에서 사용되는 예약어는 사용할 수 없다.
 		
 		//int my work;    //변수명으로 공백은 올 수 없다.
 		int mywork;       //변수명은 처음에는 소문자, 이어서 여러단어를 적용할때 첫자는 대문자
