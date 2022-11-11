@@ -3,7 +3,7 @@ package chapter03.ex04;
 public class LogicalOperator {
 
 	public static void main(String[] args) {
-		// 논리 연산자 vs 비트연산자 를 이용한 논리 연산
+		// 논리 연산자 vs 비트연산자를 이용한 논리 연산
 		// 1. 논리연산자 ( AND ( && ),  OR ( || ) , XOR ( ^ ), NOT (!)
 					// << 숏트 서킷이 발생됨 : && , || >> 
 		//1-1. AND ( && ) 
