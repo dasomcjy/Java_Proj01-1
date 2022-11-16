@@ -67,5 +67,31 @@ public class Ex02 {
 	}
 	
 }	*/
-}	}
-
+		int i = 0;
+		int[] arr1 = new int [10];
+		
+		for (int a = 1 ; a<3000 ; a++) {
+			if (a % 3 == 0 || a % 5 == 0) {
+				arr1[i] = a;
+				i++;
+			}
+			if ( i > 9 ) {
+				break;
+			}
+		}
+		
+		System.out.println("===for 문으로 출력 =====");
+		for ( i = 0 ; i < 10 ; i++ ) {
+			System.out.print(arr1[i] + "  ");
+		}
+		System.out.println();
+		System.out.println("=====Enhanced For =====");
+		for ( int k : arr1 ) {
+			System.out.print(  " " + k );
+		}
+		System.out.println();
+		System.out.println("=====Array.toString()==========");
+		System.out.println(Arrays.toString(arr1));
+					}
+		
+		}	
