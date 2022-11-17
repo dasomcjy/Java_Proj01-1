@@ -40,14 +40,7 @@ public class Read_Array_Data {
 				System.out.print(arr3[i][j] + " ");
 			}
 			System.out.println();		
-		}
-		
-		
-		
-		
-		
-		
-		
+		}		
 		
 	}
 
