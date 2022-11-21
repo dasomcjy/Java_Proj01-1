@@ -1,6 +1,6 @@
 package chapter06;
 
-class Man {
+class Ma{
 	//필드
 	String name = "홍길동" ; 
 	int age = 30 ;
