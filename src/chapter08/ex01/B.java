@@ -7,7 +7,6 @@ public class B {
 	public B() {
 		a = 1;
 		b = 2;
-		
 	}
 	public void print () {
 		System.out.println(a + "  " + b);		
