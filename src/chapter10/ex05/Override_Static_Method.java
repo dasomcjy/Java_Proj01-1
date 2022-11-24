@@ -28,9 +28,9 @@ public class Override_Static_Method {
 		Bbb b = new Bbb();
 		Aaa ab = new Bbb();
 		
-		a.print();
-		b.print();
-		ab.print();
+		a.print();		// Aaa 클래스의 static 메소드
+		b.print();		// Bbb 클래스의 static 메소드
+		ab.print();		// Aaa 클래스의 static 메소드
 		
 		
 	}
