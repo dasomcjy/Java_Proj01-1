@@ -18,7 +18,7 @@ public class UncheckedException {
 		A a = new A();		//부모 클래스를 객체화함.
 //		B b = (B) a;		//a 객체는 B 타입을 포함하지 않는다. 실행시 문제발생
 
-		//3. ArrayIndexOutOfBoundException : 배열의 방번호를 넘겼을때 발생하는 예외
+		//3. ArrayIndexOutOfBoundsException : 배열의 방번호를 넘겼을때 발생하는 예외
 		
 //		int [] arr = new int [] {1,2,3};
 		
