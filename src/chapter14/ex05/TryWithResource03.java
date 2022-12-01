@@ -67,12 +67,6 @@ public class TryWithResource03 {
 			
 		}
 		
-		
-		
-		
-		
-		
-		
 	}
 
 }

@@ -15,7 +15,7 @@ class Aaa {
 }
 
 
-public class TrowsException02 {
+public class ThrowsException02 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

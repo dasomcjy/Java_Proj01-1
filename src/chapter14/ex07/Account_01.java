@@ -26,17 +26,17 @@ public class Account_01 {
 			System.out.println("현재 예금 잔고 : " + balance + ", 출금 요청한 금액 : " + money);
 			throw new BalanceException("예금 잔고가 부족합니다." + (money - balance) + "원 모자랍니다.");
 		}else {
-			balance -= money;
+			System.out.println(" 현재 잔액은 " + (balance - money) + "입니다.");
 		}
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
 		//객체 생성후 테스트 
-		Account a1 = new Account(); 
+		Account_01 a1 = new Account_01(); 
 	
 		try {
-			a1.withdrow(5000);
+			a1.withdraw(5000);
 		} catch (BalanceException e) {
 			//e.printStackTrace();
 			System.out.println(e.getMessage());
