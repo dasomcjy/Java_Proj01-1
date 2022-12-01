@@ -23,7 +23,7 @@ public class CheckedException {
 		// 일반 예외 : 컴파일 단계에서 예외처리를 하라고 알려줌
 		
 		//1. InterrupedException : 인터럽트가 발생했을때 예외처리 
-//		Thread.sleep(1000); //T쓰레드를 멈춘다.
+//		Thread.sleep(1000); //쓰레드를 멈춘다.
 		
 		//2. ClassNotFoundException : 클래스를 찾지 못했을때 발생하는 Exception
 //		Class cls = Class.forName("java.lang.Objext");

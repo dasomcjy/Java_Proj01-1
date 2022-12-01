@@ -1,6 +1,6 @@
 package chapter14.ex03;
 
-public class Multi_catch03 {
+public class Multi_Catch03 {
 
 	public static void main(String[] args) {
 		// Exception : 모든 예외의 부모 클래스, try 블락의 모든 예외를 처리

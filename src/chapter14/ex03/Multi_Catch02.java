@@ -1,6 +1,6 @@
 package chapter14.ex03;
 
-public class Muti_Catch02 {
+public class Multi_Catch02 {
 
 	public static void main(String[] args) {
 		// 여러개의 Exception을 한꺼번에 처리
