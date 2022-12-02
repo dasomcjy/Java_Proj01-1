@@ -33,28 +33,17 @@ class GenericMethod {
 	
 	//makeRectangle () 메소드를 호출시 
 	public static < T,V > double makeRectangle (Point <T,V> p1 , Point<T,V> p2 ) {
-		double a1 = ((Number) p1.getX()).doubleValue();
-		double a2 = ((Number) p2.getX()).doubleValue();
-		double b1 = ((Number) p1.getY()).doubleValue();
-		double b2 = ((Number) p1.getY()).doubleValue();
-		
-		double width =  a2 - a1;
-		double height =  b2 - b1;
-		
+		double width = (double)p2.getX() - (double)p1.getX();
+		double height = (double)p2.getY() - (double)p1.getY();
+
 		return width * height;
 	}
 		// 두점의 좌표를 받아서 넓이를 계산해서 리턴으로 돌려줌.
 		
 		
- <T> void test(T t) {
+		// 넓이를 리턴해주면 됨.
 	
 }
-		
-		// 넓이를 리턴해주면 됨.
-	}
-	
-
-
 
 
 public class Ex01 {
@@ -66,14 +55,16 @@ public class Ex01 {
 		
 		// makeRectangle (p1, p2)   <== 두점의 값을 받아서 넓이를 처리해서 리턴으로 받아옴
 		
-		Point<Double, Double > p1 = new Point <Double, Double> (2.0 , 5.0);
-		Point<Double, Double > p2 = new Point <>(10.0 , 6.0);
+		Point<Double, Double > p1 = new Point (1.0 , 1.0);
+		Point<Double, Double > p2 = new Point (5.0 , 5.0);
 		
-		double rect = GenericMethod.<Double, Double> makeRectangle(p1, p2);
-		System.out.println("두 점으로 만들어진 사각형의 넓이는 " + rect + " 입니다.");
+		double rect = GenericMethod.makeRectangle(p1, p2);
+		
+		System.out.println("두 좌표의 넓이는 : " + rect + " 입니다.");
 		 
 		 
 		 
 	}
 
 }
+
