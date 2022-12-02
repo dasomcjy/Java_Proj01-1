@@ -52,7 +52,7 @@ public class GenericMethod {
 		System.out.println("===========================");
 		//2. method2 호출 
 		
-		//리턴 타입은 일반 타입 
+		//리턴 타입은 일반 타입 ( 대문자가아니라 소문자! 일반타입)
 		boolean bool1 = gm.<Double>method2( 2.5, 2.5 );
 		boolean bool2 = gm.method2(2.4, 2.5);
 								
